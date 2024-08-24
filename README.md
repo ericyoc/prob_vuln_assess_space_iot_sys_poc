@@ -6,7 +6,7 @@ This Python-based tool conducts a probabilistic vulnerability assessment for Spa
 
 ## Features
 
-- Data retrieval from NVD and VarIoT databases
+- Data retrieval from NVD (https://nvd.nist.gov/developers/request-an-api-key) and VarIoT (https://www.variotdbs.pl/api/) databases
 - Monte Carlo simulation for probabilistic risk assessment
 - Comparison of probabilistic and Euclidean distance-based vulnerability scoring
 - Visualization of vulnerability score distributions
