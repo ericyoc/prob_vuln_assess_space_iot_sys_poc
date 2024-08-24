@@ -4,6 +4,21 @@
 
 This Python-based tool conducts a probabilistic vulnerability assessment for Space IoT systems. It leverages data from the National Vulnerability Database (NVD) and VarIoT Database to provide a comprehensive analysis of potential security risks in space-based IoT deployments.
 
+## Motivating Articles and Related Work
+T. T. T. Le, N. U. Hassan, X. Chen, M.-S. Alouini, Z. Han, and C. Yuen, “A Survey on Random Access Protocols in Direct-Access LEO Satellite- Based IoT Communication,” IEEE Communications Surveys & Tutorials, Early Access, pp. 1–1, 2023, doi: https://doi.org/10.1109/COMST.2023.3385347
+
+Deng H, Liu T, Ma X, Wang W, Zhang C, Wu H and Zhu L. Static program analysis for IoT risk mitigation in space-air-ground integrated networks. Security and Safety 2024; 3: 2024007, doi https://doi.org/10.1051/sands/2024007
+
+Plastras, S.; Tsoumatidis, D.; Skoutas, D.N.; Rouskas, A.; Kormentzas, G.; Skianis, C. Non-Terrestrial Networks for Energy-Efficient Connectivity of Remote IoT Devices in the 6G Era: A Survey. Sensors 2024, 24, 1227, doi: https://doi.org/10.3390/s24041227
+
+Vijay Varadharajan, Neeraj Suri, Security challenges when space merges with cyberspace, Space Policy, Volume 67, 2024, 101600, ISSN 0265-9646, doi: https://doi.org/10.1016/j.spacepol.2023.101600.
+
+NIST National Vulnerability Database
+https://nvd.nist.gov/
+
+VARIot IoT Vulnerabilities and Exploits Databses
+https://www.variotdbs.pl/
+
 ## Features
 
 - Data retrieval from NVD (https://nvd.nist.gov/developers/request-an-api-key) and VarIoT (https://www.variotdbs.pl/api/) databases
