@@ -45,6 +45,8 @@ Ensure `nvd_and_variot_api_keys.txt` contains required API keys for NVD and VarI
 
 ## Results
 
+![](https://github.com/ericyoc/prob_vuln_assess_space_iot_sys_poc/blob/main/vulnerability_distribution.png)
+
 ```
 Probabilistic Vulnerability Assessment for Space IoT Systems
 -----------------------------------------------------------
