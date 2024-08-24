@@ -86,6 +86,58 @@ Statistical Comparison:
 T-statistic: 57.0694
 P-value: 0.0000
 The difference between Probabilistic and Euclidean approaches is statistically significant.
+
+Vulnerability Selection Criteria:
+The vulnerabilities analyzed in this assessment were selected based on their relevance to Space IoT systems. The selection criteria include:
+1. Applicability to embedded systems and IoT devices commonly used in space applications.
+2. Relevance to communication protocols and technologies used in satellite and space-based networks.
+3. Potential impact on critical space operations, including data transmission, remote sensing, and navigation.
+4. Vulnerabilities affecting low-power, resource-constrained devices typical in space IoT.
+5. Security issues related to long-distance, high-latency communication characteristic of space systems.
+6. Threats specific to the harsh environmental conditions of space (e.g., radiation effects on hardware).
+7. Vulnerabilities in ground station systems that interact with space-based IoT devices.
+
+These criteria ensure that the vulnerabilities analyzed are particularly relevant to the unique challenges and constraints of Space IoT systems. This focused approach allows for a more accurate assessment of the specific risks faced by these specialized IoT deployments in space environments.
+
+Interpretation:
+- The system-wide scores represent the total vulnerability across all identified vulnerabilities.
+- Individual scores (Probabilistic and Euclidean) represent the severity of single vulnerabilities.
+- The large difference between system-wide and individual scores is due to the cumulative effect of multiple vulnerabilities.
+- The statistical difference between Probabilistic and Euclidean scores suggests they capture different aspects of vulnerability severity.
+- The high T-statistic (57.0059) indicates a large standardized difference between the Probabilistic and Euclidean scoring methods.
+- The p-value of 0.0 suggests that this difference is statistically significant, not due to random chance.
+- This implies that the Probabilistic and Euclidean methods are capturing fundamentally different aspects of vulnerability:
+  * Probabilistic scores incorporate the space context factor and random variations, reflecting potential real-world fluctuations.
+  * Euclidean scores measure how much each vulnerability deviates from the average, highlighting outliers.
+
+Implications for Space IoT Security:
+1. System-wide vulnerability:
+   - The large total scores indicate that the cumulative effect of multiple vulnerabilities is substantial.
+   - This suggests a need for a holistic approach to security, addressing multiple vulnerabilities simultaneously.
+
+2. Individual vulnerability assessment:
+   - The difference between Probabilistic and Euclidean scores for individual vulnerabilities shows the importance of context in risk assessment.
+   - Probabilistic scores may better reflect the dynamic nature of space environments.
+   - Euclidean scores help identify vulnerabilities that are significantly different from the norm.
+
+3. Security strategy:
+   - Use Probabilistic scores for day-to-day risk management and prioritization.
+   - Use Euclidean scores to identify outlier vulnerabilities that may require special attention.
+   - The combination of both methods provides a more comprehensive view of the system's security posture.
+
+4. Continuous monitoring:
+   - The variation between minimum and maximum total scores suggests that the system's overall vulnerability can fluctuate.
+   - Regular reassessment is crucial to capture changes in the threat landscape and system configuration.
+
+5. Resource allocation:
+   - Prioritize resources based on vulnerabilities with high scores in both Probabilistic and Euclidean methods.
+   - Consider the system-wide scores when determining overall security budgets and efforts.
+
+Conclusion:
+This analysis provides a nuanced view of vulnerabilities in the space IoT system.
+By combining Probabilistic and Euclidean approaches, we gain insights into both the dynamic nature of space-based risks
+and the relative severity of individual vulnerabilities. This dual perspective enables more informed decision-making
+in securing complex space IoT environments.
 ```
 
 ## Interpretation of Results
